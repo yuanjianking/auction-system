@@ -1,0 +1,65 @@
+#mediaPlayer{
+    float: left;
+}
+
+.media-middle {
+    height: 60%;
+    width: 100%;
+    clear: both;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.media-middle ul {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.media-middle ul li {
+    height: 30px;
+    font-size: 20px;
+    clear: both;
+}
+
+#media_img {
+    width: 13%;
+    float: left;
+    margin-top: 10px;
+}
+
+#media_img img {
+    width: 100%;
+    height: auto;
+}
+
+#media_list_desc_span {
+    width: 100%;
+    float: left;
+    font-size: 1.0em;
+    line-height: 2.0em;
+}
+
+#media_list_desc_span #desc_p {
+    font-size: 0.8em;
+}
+
+#media_list_desc_span a {
+    color: #666;
+}
+
+#media_list_desc_span a:hover {
+    color: #333;
+}
+
+#media_list_desc_span {
+    width: 63%;
+    margin-left: 2%;
+}
+
+#media_render {
+    width: 100%;
+    float: left;
+    font-size: 2.0em;
+    line-height: 1.0em;
+    text-align: center;
+}

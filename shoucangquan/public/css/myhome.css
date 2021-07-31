@@ -1,0 +1,422 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* myhome start */
+.myhomebox {
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.mytitle {
+    width: 97.8%;
+    float: left;
+    background-color: #e8e8e8;
+    border: 1px solid #CCC;
+    padding-left: 2%;
+    font-size: 1.6em;
+    line-height: 2em;
+    font-weight: bold;
+    margin: 1% 0;
+}
+
+.myms {
+    width: 96%;
+    float: left;
+    padding: 2%;
+}
+
+.mypic {
+    max-width: 55px;
+    float: left;
+    border: 1px solid #099;
+    padding: 2px;
+}
+
+.mypic img {
+    width: 100%;
+    float: left;
+}
+
+.myname {
+    width: 15%;
+    float: left;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    margin: 0 1%;
+    padding-left: 1%;
+}
+
+.myname strong {
+    color: #066;
+}
+
+.myms ul {
+    width: 50%;
+    float: left;
+}
+
+.myms ul li {
+    width: 100%;
+    float: left;
+    line-height: 1.6em;
+    font-size: 1.4em;
+}
+
+.myms ul li a {
+    color: #066;
+}
+
+.add {
+    width: 100%;
+    float: left;
+}
+
+.add ul {
+    width: 96%;
+    padding: 0 2%;
+}
+
+.add ul li {
+    width: 100%;
+    float: left;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    padding: 0.8% 0;
+}
+
+.add ul li span {
+    float: left;
+    text-align: right;
+    width: 10%;
+}
+
+.add ul li span a {
+    color: #F60
+}
+
+.check {
+    width: 90%;
+    float: left;
+    margin-left: 10%;
+}
+
+/* myhome end */
+/* saveadd start */
+.saveadd {
+    width: 100%;
+    float: left;
+}
+
+.saveadd ul {
+    width: 100%;
+    float: left;
+    padding-top: 1%;
+}
+
+.saveadd ul li {
+    width: 100%;
+    float: left;
+    padding: 0.5% 0;
+}
+
+.saveadd ul li a:hover {
+    background-color: #e8e8e8;
+}
+
+.saveadd ul li span {
+    font-size: 1.4em;
+    float: left;
+    padding-left: 0.5%;
+}
+
+.addtitle {
+    background-color: #e8e8e8;
+    border: 1px solid #CCC;
+    line-height: 2.5em;
+}
+
+#s00 {
+    line-height: 2em;
+    color: #F60;
+    font-size: 1.4em;
+}
+
+#s01 {
+    width: 10%;
+}
+
+#s02 {
+    width: 20%;
+}
+
+#s03 {
+    width: 20%;
+}
+
+#s04 {
+    width: 10%;
+}
+
+#s05 {
+    width: 15%;
+}
+
+#s06 {
+    width: 10%;
+}
+
+#s06 a {
+    color: #F60;
+}
+
+/* saveadd end */
+/* mypro start */
+.mypronav {
+    width: 99.7%;
+    float: left;
+    background-color: #DBFAFD;
+    border: 1px solid #0C9;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.mypronav ul {
+    width: 100%;
+    float: left;
+}
+
+.mypronav ul li {
+    width: 10.82%;
+    float: left;
+    text-align: center;
+}
+
+#pronav01, #pronav02 {
+    width: 35%;
+}
+
+.mypro {
+    width: 99.7%;
+    float: left;
+}
+
+.mypro ul {
+    width: 100%;
+    float: left;
+    border: 1px solid #0C9;
+    border-top: 0px;
+    padding: 1% 0px;
+}
+
+.mypro ul li {
+    width: 10.82%;
+    float: left;
+    text-align: center;
+}
+
+#protime {
+    width: 99%;
+    float: left;
+    padding: 0.5%;
+}
+
+#propic {
+    width: 32%;
+    float: left;
+    margin: 1.5%;
+}
+
+#propic img {
+    width: 100%;
+}
+
+#proname {
+    width: 65%;
+    float: left;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#pagebox {
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    padding: 0.5% 0;
+}
+
+/* mypro end */
+/* button start */
+.button a {
+    color: #4183c4;
+    font-weight: bold;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #066;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    white-space: nowrap;
+    background-color: #eaeaea;
+    background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+    background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+    background-image: linear-gradient(#fafafa, #eaeaea);
+    background-repeat: repeat-x;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-bottom-color: #c5c5c5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+}
+
+.button:hover, .button:active {
+    background-position: 0 -15px;
+    border-color: #ccc #ccc #b5b5b5;
+}
+
+.button:active {
+    background-color: #dadada;
+    border-color: #b5b5b5;
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .15);
+}
+
+.button:focus {
+    outline: none;
+    border-color: #51a7e8;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 5px rgba(81, 167, 232, .5);
+}
+
+#s07 a {
+    color: #4183c4;
+}
+
+#s07 {
+    position: relative;
+    display: inline-block;
+
+    padding: 2px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    white-space: nowrap;
+    background-color: #eaeaea;
+    background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+    background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+    background-image: linear-gradient(#fafafa, #eaeaea);
+    background-repeat: repeat-x;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-bottom-color: #c5c5c5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+}
+
+#s07:hover, #s07:active {
+    background-position: 0 -15px;
+    border-color: #ccc #ccc #b5b5b5;
+    color: #F60;
+}
+
+#s07:active {
+    background-color: #dadada;
+    border-color: #b5b5b5;
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .15);
+}
+
+#s07:focus {
+    outline: none;
+    border-color: #51a7e8;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 5px rgba(81, 167, 232, .5);
+}
+
+/* button end */
+/* 响应式布局start */
+
+@media screen and (min-width: 1440px) and (max-width: 1600px) {
+}
+
+/*大于等于1200，大屏幕PC端*/
+@media screen and (min-width: 1000px) and (max-width: 1439px) {
+}
+
+/*不大于992-1199，中等屏幕，分辨率低的pc*/
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .add ul li span {
+        width: 15%;
+    }
+
+}
+
+/*在768-991，小屏幕，iPad*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .add ul li span {
+        width: 20%;
+    }
+
+    .addtitle {
+        font-size: 0.8em;
+        line-height: 2.5em;
+    }
+
+    .saveadd ul li span {
+        font-size: 0.8em;
+        padding-left: 0.2%;
+    }
+
+    #s06 {
+        width: 11.5%;
+    }
+
+}
+
+/*在480-767，超小屏幕，手机*/
+@media screen and (max-width: 479px) {
+    .myms ul li {
+        font-size: 1.2em;
+    }
+
+    .add ul li span {
+        width: 100%;
+        text-align: left;
+    }
+
+    .addtitle {
+        font-size: 0.8em;
+        line-height: 2.5em;
+    }
+
+    .saveadd ul li span {
+        font-size: 0.4em;
+
+    }
+
+}
+
+/*小于479，超微小屏幕，更低分辨率手机*/
+
+/* 响应式布局end */

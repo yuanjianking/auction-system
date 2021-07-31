@@ -1,0 +1,761 @@
+@charset "utf-8";
+/* CSS Document */
+/* 公共start*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style-type: none;
+}
+
+/* 清除内外边距 */
+article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+    display: block
+}
+
+body, button, input, select, textarea {
+    font: 62.5% \5FAE\8F6F\96C5\9ED1, "Microsoft YaHei", arial, sans-serif;
+    color: #000;
+    line-height: 150%;
+}
+
+/* 设置默认字体 */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.none {
+    display: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    color: #bbb;
+    background-color: #333;
+    clear: both;
+    padding: 1% 0px;
+    font-size: 1.2em;
+}
+
+.footer-box {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-img {
+    float: left;
+    max-width: 85px;
+    border: 1px solid #CCC;
+}
+
+.footer-img img {
+    width: 100%;
+}
+
+#copyright {
+    float: left;
+    width: 70%;
+    margin-left: 3%;
+}
+
+.auctionbox, .studybox, .newsbox {
+    max-width: 1000px;
+    margin: 1% auto;
+    border: 1px #E6E6E6 solid;
+    clear: both;
+    overflow: hidden;
+}
+
+/* page start */
+.page {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    padding: 2% 0 2% 5.5%;
+    margin-left: 1%;
+    color: #313031;
+    float: left;
+    width: 94.5%;
+    font-family: Verdana, Tahoma, Arial, Helvetica, Sans-Serif;
+}
+
+.page a {
+    border: #b7d8ee 1px solid;
+    padding: 5px 6px 4px 5px;
+    margin: 0px 3px;
+    color: #666;
+    text-decoration: none;
+}
+
+.page a:hover {
+    border: #b7d8ee 1px solid;
+    color: #0066a7;
+    background-color: #d2eaf6;
+}
+
+.pagination a:active {
+    border: #b7d8ee 1px solid;
+    color: #0066a7;
+    background-color: #d2eaf6;
+}
+
+.page span.current {
+    border: #b7d8ee 1px solid;
+    padding: 5px 6px 4px 5px;
+    margin: 0px 3px;
+    color: #444;
+    background-color: #d2eaf6;
+}
+
+.page span.disabled {
+    display: none;
+}
+
+/* page end */
+/* 公共end */
+
+/* header start 	*/
+header {
+    width: 100%;
+    background-color: #f8f8f8;
+    line-height: 45px;
+    border-bottom: 1px #999 solid;
+    height: auto;
+    min-height: 45px;
+    overflow: hidden;
+
+}
+
+.header-user-info {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-user-welcome {
+    color: #666;
+    width: 100%;
+    float: left;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.head-user-logo {
+    max-width: 55px;
+    float: left;
+}
+
+.head-user-logo img {
+    width: 100%;
+}
+
+.head-user-name {
+    width: 35%;
+    font-size: 2em;
+    float: left;
+    line-height: 2em;
+    padding-left: 1%;
+    font-weight: bold;
+}
+
+.head-user-login {
+    float: left;
+    width: 57%;
+    height: 32px;
+}
+
+.head-user-login ul {
+    float: right;
+    width: 100%;
+}
+
+.head-user-login ul li {
+    width: 12.5%;
+    float: right;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.head-user-login ul li a {
+    color: #666;
+}
+
+.head-user-login li a:hover {
+    color: #000;
+}
+
+nav {
+    width: 100%;
+    color: #333;
+    clear: both;
+}
+
+nav ul {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    width: 20%;
+    float: left;
+    font-size: 1.6em;
+    font-weight: bold;
+    line-height: 3em;
+    text-align: center;
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: #1696ad;
+}
+
+/* header end */
+/* auction start */
+.boxtitle {
+    width: 98%;
+    float: left;
+    height: 35px;
+    font-size: 1.6em;
+    line-height: 2em;
+    color: #333333;
+    font-weight: bold;
+    padding-left: 2%;
+    margin-top: 1%;
+}
+
+.boxtitle span {
+    width: 13%;
+    float: right;
+    font-weight: normal;
+    margin-right: 2%;
+    padding: 0 5px;
+}
+
+.boxtitle span a {
+    width: 100%;
+    padding: 0 10px;
+    color: #666;
+}
+
+.boxtitle span a:hover {
+    width: 100%;
+    color: #000;
+    border-radius: 10px;
+    border: 0px #1696ad solid;
+    background-color: #f3f3f3;
+}
+
+.auctionbox-piclist, .auctionbox-piclist ul, .studylist, .studylist ul {
+    width: 100%;
+    float: left;
+}
+
+.auctionbox-piclist ul li {
+    width: 30%;
+    float: left;
+    margin: 1% 0 1% 2%;
+}
+
+#auctiontext {
+    width: 100%;
+    float: left;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+#auctiontext a {
+    color: #666;
+}
+
+#auctiontext a:hover {
+    color: #333;
+}
+
+#auctionimg {
+    width: 100%;
+    float: left;
+}
+
+#auctionimg img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/* auction end */
+/* study start */
+.studylist ul li {
+    width: 98%;
+    float: left;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    line-height: 2.8em;
+    padding-left: 2%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    border-bottom-color: #CCC;
+}
+
+#studypic {
+    float: left;
+    width: 20%;
+}
+
+#studypic img {
+    width: 100%;
+    height: auto;
+}
+
+#studytext {
+    float: left;
+    width: 76%;
+    margin-left: 2%;
+}
+
+#studytext h2 {
+    width: 100%;
+    float: left;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    color: #000;
+}
+
+.studynews {
+    color: #999;
+    width: 100%;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.studynews a {
+    color: #a47f1a;
+}
+
+time {
+    font-size: 1.2em;
+    float: left;
+    color: #666;
+}
+
+/* study end */
+
+/*以上为首页css end */
+
+/* 以下为拍卖页面CSS start */
+/* auction-list start */
+.smalltitle {
+    width: 100%;
+    float: left;
+    background-color: #f5fdff;
+    color: #666;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    height: 30px;
+    font-weight: bold;
+    border-top: 1px #E6E6E6 solid;
+    border-bottom: 1px #E6E6E6 solid;
+}
+
+.smalltitle span {
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+.smalltitle #maintitle {
+    width: 55%;
+}
+
+.auction-list dl {
+    width: 100%;
+    float: left;
+}
+
+.auction-list dl dt, .auction-list ul li {
+    width: 99%;
+    float: left;
+    margin: 0 0.5%;
+    border-bottom: dotted #CCCCCC 1px;
+    padding: 1% 0;
+}
+
+#auction-list-text {
+    width: 40%;
+    float: left;
+    padding: 0 1%;
+}
+
+#auction-list-text h2 {
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+#auction-list-text h2 a {
+    color: #666;
+}
+
+#auction-list-text h2 a:hover {
+    color: #000;
+}
+
+#auction-list-text h3 {
+    color: #B4B4B4;
+    font-size: 1.2em;
+}
+
+#auction-list-text h3 a {
+    color: #666;
+}
+
+.price {
+    width: 15%;
+    float: left;
+    text-align: center;
+    line-height: 4em;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #666;
+}
+
+#auction-list-img {
+    width: 12%;
+    float: left;
+    border: #CCC solid 1px;
+    padding: 2px;
+}
+
+#auction-list-img img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/* auction-list end */
+/* vip-auction-list start */
+.vip-auction-list ul li h2 {
+    float: left;
+    width: 98%;
+    padding-left: 2%;
+    font-size: 1.6em;
+    line-height: 2.2em;
+    border-top: 1px solid #E6E6E6;
+}
+
+.vip-auction-list ul li h2 a {
+    color: #666;
+}
+
+.vip-auction-list ul li h2 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.vip-auction-list ul li h3 {
+    float: left;
+    width: 98%;
+    padding-left: 2%;
+    color: #B4B4B4;
+    font-size: 1.4em;
+}
+
+.vip-auction-list ul li h3 a {
+    color: #67a6b1;
+}
+
+#vipbox {
+    width: 100%;
+    float: left;
+}
+
+#vipbox dl {
+    width: 100%;
+    float: left;
+}
+
+#vipbox dl dt {
+    width: 23%;
+    float: left;
+    margin: 1%;
+    border: 0;
+    line-height: 2em;
+}
+
+#vipbox dl dt img {
+    width: 100%;
+}
+
+#vipbox dl dt span {
+    width: 100%;
+    float: left;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+/* vip-auction-list end */
+/* 以上为拍卖页面CSS start */
+/* 以下为信息列表页面CSS end */
+/* newslist start */
+.newslist {
+    width: 100%;
+    float: left;
+    border-top: 1px #E6E6E6 solid;
+}
+
+.newslist ul {
+    margin: 1%;
+    width: 98%;
+}
+
+.newslist ul li {
+    width: 90%;
+    float: left;
+    margin: 0 4%;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    padding: 1% 0 1% 2%;
+    border-bottom: 1px #E6E6E6 dotted;
+}
+
+.newslist ul li span {
+    float: right;
+    color: #999;
+    margin-right: 2%;
+}
+
+.newslist ul li a:hover {
+    color: #1696ad;
+}
+
+/* newslist end */
+/* newsview start */
+.newsview {
+    border-top: 1px #E6E6E6 solid;
+    width: 96%;
+    padding: 2%;
+    float: left;
+    color: #666;
+    font-size: 1.5em;
+    line-height: 1.8em;
+}
+
+.newsview img {
+    width: auto;
+}
+
+/* newsview end */
+/* 以上为信息列表页面CSS end */
+/* 响应式布局start */
+
+@media screen and (min-width: 1440px) and (max-width: 1600px) {
+
+}
+
+/*大于等于1200，大屏幕PC端*/
+@media screen and (min-width: 1000px) and (max-width: 1439px) {
+}
+
+/*不大于992-1199，中等屏幕，分辨率低的pc*/
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .head-user-name {
+        width: 30%;
+    }
+
+    .head-user-login {
+        width: 60%;
+    }
+
+    .head-user-login ul li {
+        width: 15%;
+    }
+
+    .boxtitle span {
+        width: 18%;
+        margin-right: 0;
+    }
+
+    /*以上为首页样式*/
+}
+
+/*在768-991，小屏幕，iPad*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .head-user-name {
+        width: 25%;
+    }
+
+    .head-user-login {
+        width: 55%;
+    }
+
+    .head-user-login ul li {
+        width: auto;
+        padding-right: 15px;
+    }
+
+    nav ul li {
+        width: 20%;
+    }
+
+    .boxtitle span {
+        width: 27%;
+        margin-right: 0;
+    }
+
+    #studypic {
+        display: none;
+    }
+
+    #studytext {
+        width: 98%;
+        margin-left: 0;
+    }
+
+    /*以上为首页样式*/
+    .smalltitle span {
+        width: 22%;
+    }
+
+    .price {
+        width: 22%;
+    }
+
+    .yc {
+        display: none;
+    }
+
+    #auction-list-img {
+        width: 17%;
+    }
+
+    #auction-list-text {
+        width: 35%;
+    }
+
+    #auction-list-text h2 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    #auction-list-text h3 {
+        font-size: 1em;
+    }
+}
+
+/*在480-767，超小屏幕，手机*/
+@media screen and (max-width: 479px) {
+    .page {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    /*以上为公共样式*/
+    .head-user-name {
+        width: 25%;
+    }
+
+    .head-user-login {
+        width: 55%;
+    }
+
+    .head-user-login ul li {
+        width: auto;
+        padding-right: 8px;
+    }
+
+    nav ul li {
+        width: 20%;
+    }
+
+    .boxtitle {
+        font-size: 1.4em;
+    }
+
+    .boxtitle span {
+        width: 30%;
+    }
+
+    .auctionbox-piclist ul li {
+        width: 96%;
+        float: left;
+        margin: 1.5% 2%;
+    }
+
+    #auctionimg {
+        width: 35%;
+    }
+
+    #auctiontext {
+        width: 63%;
+        margin-left: 2%;
+    }
+
+    #studypic {
+        display: none;
+    }
+
+    #studytext {
+        width: 98%;
+        margin-left: 0;
+    }
+
+    #studytext h2 {
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
+
+    .studynews {
+        font-size: 1.2em;
+        line-height: 1.6em;
+    }
+
+    /*以上为首页样式*/
+    .smalltitle {
+        font-size: 1.4em;
+        line-height: 1.6em;
+    }
+
+    .smalltitle span {
+        width: 21%;
+    }
+
+    .smalltitle #maintitle {
+        width: 35%;
+    }
+
+    .price {
+        width: 21%;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .title-yc {
+        display: none;
+    }
+
+    #auction-list-img {
+        width: 30%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #vipbox dl dt span {
+        font-size: 1.2em;
+    }
+
+}
+
+/*小于479，超微小屏幕，更低分辨率手机*/
+
+/* 响应式布局end */
